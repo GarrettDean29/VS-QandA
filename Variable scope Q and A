@@ -1,0 +1,10 @@
+What is scope? Your explanation should include the idea of global vs. block scope.
+VAriable scope is the rule set that allows certain coded areas, to be accessed by particular variables. 
+Global scope (unpreferred) is a varialbe that can be accessed from anywhere. As to block is different in that it is included or paired with the function to accessed exclusivly there.  
+Why are global variables avoided?
+When it uses a variable apart of another function or out on its own, it begins to cause side effects. 
+Explain JavaScript's strict mode
+This is put at the top of the JavaScript file, used to ensure that all variables are declared with "const" or "let". If neither are used then an error occurs. 
+What are side effects, and what is a pure function?
+A side effect is when a function goes from its local scope and into a parent's, where it alters a values inhabiting it.
+A pure function is when a function has no side effects as well as determinate. 
